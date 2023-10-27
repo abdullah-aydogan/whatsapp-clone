@@ -109,7 +109,11 @@ class _AramalarState extends State<Aramalar> {
           backgroundColor: primaryColor,
           foregroundColor: textColor,
           onPressed: () {
-
+            ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                    content: Text("Kişilerinizle iletişime geçin.")
+                )
+            );
           },
           child: const Icon(Icons.add_call),
         ),
