@@ -48,9 +48,9 @@ class _AnasayfaState extends State<Anasayfa> {
           bottom: TabBar(
             tabs: const [
               Tab(icon: Icon(Icons.groups_rounded)),
-              Tab(text: "Sohbetler"),
-              Tab(text: "Güncellemeler"),
-              Tab(text: "Aramalar"),
+              Tab(text: "Sohbet"),
+              Tab(text: "Durum"),
+              Tab(text: "Arama"),
             ],
             labelColor: textColor,
             indicatorColor: textColor,
