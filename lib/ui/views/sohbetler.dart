@@ -64,10 +64,16 @@ class _SohbetlerState extends State<Sohbetler> {
                       child: Row(
                         children: [
                           Image.asset("resimler/${mesaj.kisi.kisi_resim}"),
+                          const SizedBox(width: 4),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(mesaj.kisi.kisi_ad, style: const TextStyle(fontWeight: FontWeight.bold)),
+                              Text(mesaj.kisi.kisi_ad,
+                                  style: const TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 16,
+                                  ),
+                              ),
                               const SizedBox(height: 6),
                               Text(mesaj.son_mesaj),
                             ],

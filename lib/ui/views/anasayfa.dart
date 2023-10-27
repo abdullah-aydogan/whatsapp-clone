@@ -30,14 +30,12 @@ class _AnasayfaState extends State<Anasayfa> {
 
               },
             ),
-            const SizedBox(width: 6),
             IconButton(
               icon: const Icon(Icons.search),
               onPressed: () {
 
               },
             ),
-            const SizedBox(width: 6),
             IconButton(
               icon: const Icon(Icons.more_vert),
               onPressed: () {
