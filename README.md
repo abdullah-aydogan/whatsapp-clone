@@ -2,6 +2,10 @@
 
 Udemy'deki Flutter Bootcamp eğitiminde verilen altıncı ödev çalışması (listeleme ödevi)
 
+## Ekran Görüntüsü
+
+![Ekran Alıntısı](https://github.com/abdullah-aydogan/whatsapp-clone/assets/117303457/52777b4e-7d10-4982-b26b-bfe44bf29dac)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
