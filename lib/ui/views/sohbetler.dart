@@ -75,7 +75,13 @@ class _SohbetlerState extends State<Sohbetler> {
                                   ),
                               ),
                               const SizedBox(height: 6),
-                              Text(mesaj.son_mesaj),
+                              Row(
+                                children: [
+                                  const Icon(Icons.done_all, color: Colors.grey),
+                                  const SizedBox(width: 4),
+                                  Text(mesaj.son_mesaj),
+                                ],
+                              ),
                             ],
                           ),
                           const Spacer(),

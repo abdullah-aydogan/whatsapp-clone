@@ -6,5 +6,5 @@ class Cagrilar {
   String cagri_tarih;
   Kisiler kisi;
 
-  Cagrilar(this.cagri_id, this.cagri_tarih, this.kisi);
+  Cagrilar({required this.cagri_id, required this.cagri_tarih, required this.kisi});
 }
