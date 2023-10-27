@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/colors.dart';
 
-class Sohbetler extends StatefulWidget {
-
-  const Sohbetler({super.key});
+class Guncellemeler extends StatefulWidget {
+  
+  const Guncellemeler({super.key});
 
   @override
-  State<Sohbetler> createState() => _SohbetlerState();
+  State<Guncellemeler> createState() => _GuncellemelerState();
 }
 
-class _SohbetlerState extends State<Sohbetler> {
+class _GuncellemelerState extends State<Guncellemeler> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Center(),
+      body: const Center(
+        child: Text("Güncellemeler Ekranı", style: TextStyle(fontSize: 30)),
+      ),
       floatingActionButton: Padding(
         padding: const EdgeInsets.all(8.0),
         child: FloatingActionButton(
@@ -22,7 +24,7 @@ class _SohbetlerState extends State<Sohbetler> {
           onPressed: () {
 
           },
-          child: const Icon(Icons.message_rounded),
+          child: const Icon(Icons.camera_alt),
         ),
       ),
     );

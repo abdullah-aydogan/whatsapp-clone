@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/colors.dart';
 
-class Sohbetler extends StatefulWidget {
+import '../../colors.dart';
 
-  const Sohbetler({super.key});
+class Aramalar extends StatefulWidget {
+
+  const Aramalar({super.key});
 
   @override
-  State<Sohbetler> createState() => _SohbetlerState();
+  State<Aramalar> createState() => _AramalarState();
 }
 
-class _SohbetlerState extends State<Sohbetler> {
+class _AramalarState extends State<Aramalar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +23,7 @@ class _SohbetlerState extends State<Sohbetler> {
           onPressed: () {
 
           },
-          child: const Icon(Icons.message_rounded),
+          child: const Icon(Icons.add_call),
         ),
       ),
     );

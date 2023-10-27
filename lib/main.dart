@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/ui/views/sohbetler.dart';
+import 'package:whatsapp_clone/ui/views/anasayfa.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Sohbetler(),
+      home: const Anasayfa(),
     );
   }
 }
