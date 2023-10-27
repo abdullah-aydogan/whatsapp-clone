@@ -19,18 +19,21 @@ class _SohbetlerState extends State<Sohbetler> {
 
     var kisi1 = Kisiler(kisi_id: 1, kisi_ad: "Ahmet", kisi_resim: "profile_default.png");
     var kisi2 = Kisiler(kisi_id: 2, kisi_ad: "Mehmet", kisi_resim: "profile_1.png");
-    var kisi3 = Kisiler(kisi_id: 3, kisi_ad: "Zeynep", kisi_resim: "profile_2.png");
-    var kisi4 = Kisiler(kisi_id: 4, kisi_ad: "Abdullah", kisi_resim: "profile_default.png");
+    var kisi3 = Kisiler(kisi_id: 3, kisi_ad: "Abdullah", kisi_resim: "profile_default.png");
+    var kisi4 = Kisiler(kisi_id: 4, kisi_ad: "Zeynep", kisi_resim: "profile_2.png");
+    var kisi5 = Kisiler(kisi_id: 5, kisi_ad: "Ali", kisi_resim: "profile_default.png");
 
     var m1 = Mesajlar(mesaj_id: 1, mesaj_tarih: "Bugün", son_mesaj: "Selam", kisi: kisi1);
     var m2 = Mesajlar(mesaj_id: 2, mesaj_tarih: "Dün", son_mesaj: "Görüşmek üzere.", kisi: kisi2);
     var m3 = Mesajlar(mesaj_id: 3, mesaj_tarih: "24.10.2023", son_mesaj: "Fotoğrafları gönderdim.", kisi: kisi3);
     var m4 = Mesajlar(mesaj_id: 4, mesaj_tarih: "23.10.2023", son_mesaj: "Proje güzelmiş.", kisi: kisi4);
+    var m5 = Mesajlar(mesaj_id: 5, mesaj_tarih: "20.09.2023", son_mesaj: "Mağazaya gidecek miyiz?", kisi: kisi5);
 
     mesajlarListesi.add(m1);
     mesajlarListesi.add(m2);
     mesajlarListesi.add(m3);
     mesajlarListesi.add(m4);
+    mesajlarListesi.add(m5);
 
     return mesajlarListesi;
   }
